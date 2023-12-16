@@ -13,7 +13,7 @@ import kid_banner from './Components/Assets/banner_kids.png'
 import { useEffect,useState } from 'react';
 function App() {
   useEffect(()=>{
-    fetch('https://deployment-testing-azye.vercel.app/route').then(response=>{
+    fetch('https://deployment-testing-ss3r.onrender.com/route').then(response=>{
       console.log(response);
     })
   },[])
