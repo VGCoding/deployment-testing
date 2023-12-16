@@ -9,3 +9,5 @@ def index():
 def serve():
     return "Naam";
 
+if __name__=='__main__':
+    app.run()
