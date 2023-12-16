@@ -4,12 +4,8 @@ app=Flask(__name__)
 CORS(app)
 @app.route('/route')
 def index():
-    return {
-        "tot":"run suc"
-    }
+    return "run suc"
 @app.route('/')
 def serve():
-    return {"name":"Naam"};
+    return "Naam";
 
-if __name__=='__main__':
-    app.run()
